@@ -1,1 +1,705 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вадим Бойцов</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/vbphoto.jpg" alt="vadim" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Бойцов Вадим">Бойцов Вадим</h1>
+
+          <p class="title">Управление | Инфраструктура | Разработка</p>
+         
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:vboytsov@mail.ru" class="contact-link">vboytsov@mail.ru</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Телефон/ Telegram</p>
+
+              <time datetime="">+7 (912) 036-57-38</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Место жительства</p>
+
+              <address>Москва</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://hh.ru/resume/64e30d15ff0ceafcae0039ed1f6d5050576a66" class="social-link">
+              <ion-icon name="people-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/vboytsov/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/vboytsov" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Кратко</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Резюме</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Технологии</button>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="кратко  active" data-page="кратко">
+
+        <header>
+          <h2 class="h2 article-title">Обо мне</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            <strong>Добрый день!</strong><br><br>
+            Я работаю в области информационных технологий и телекоммуникаций.
+            Занимаюсь управлением проектами, имею опыт в области эксплуатации инфраструктуры и разработки приложений<br><br>
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Компетенции</h3>
+
+          <ul class="service-list">
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-document-48.png" alt="docs icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Документы</h4>
+
+                <p class="service-item-text">
+                  Разработка и корректировка регламентов, процедур, договоров. Ведение документации проекта.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-money-bag-ruble-48.png" alt="money icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Бюджеты</h4>
+
+                <p class="service-item-text">
+                  Формирование и работа с бюджетом ИТ-подразделения. Организация проведения и сопровождения закупок в соответствии с 223-ФЗ.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-stack-48.png" alt="infrastructure icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Инфраструктура</h4>
+
+                <p class="service-item-text">
+                  Управление территориально распределенной ИТ-инфраструктурой.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-programming-48.png" alt="programming icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Разработка</h4>
+
+                <p class="service-item-text">
+                  Анализ и преобразование данных в среде MS SQL, использование Jira и Confluence, опыт взаимодействия с Git.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+
+
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="резюме" data-page="резюме">
+
+        <header>
+          <h2 class="h2 article-title">Резюме</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="business-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Опыт работы</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Главный радиочастотный центр</h4>
+
+              <span>2022 — настоящее время</span>
+
+              <p class="timeline-text">
+                Начальник отдела технической экспертизы.<br><br>
+                Обязанности:<br>
+                - подготовка технических заданий для установки оборудования системы, проверка выполнения технических требований,<br>
+                - сбор требований и подготовка аналитических материалов разной направленности,<br>
+                - анализ схем построения сетей операторов связи, определение места установки и состава оборудования,<br>
+                - планирование развития системы (установка новых узлов, модернизация существующих, проработка планов с взаимодействующими операторами).<br><br>
+                Достижения:<br>
+                - разработана, внедрена и поддерживается база данных взаимодействующих операторов, взаимосвязей, истории создания и развития узлов системы.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Банк России</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                Ведущий эксперт регионального центра разработки<br><br>
+                Обязанности:<br>
+                - развитие Системы оперативного управления информационно-телекоммуникационной системы Банка России (BMC Remedy) по методологии Agile и методик Scrum,<br>
+                - reverse engineering блоков системы, не покрытых проектной документацией,<br>
+                - анализ бэклога, приоритезация задач,<br>
+                - проведение аналитики задач, подготовка технического задания для разработчиков,<br>
+                - разработка в среде low code/ SQL,<br>
+                - взаимодействие с бизнес подразделениями в качестве представителя команды разработки,<br>
+                - релиз-менеджер, взаимодействие со службами администрирования системы.<br><br>
+                Достижения:<br>
+                - 10 релизов системы сданы в промышленную эксплуатацию с оформлением документации. Количество обнаруженных дефектов после поставки релиза не более 3% емкости спринта.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Филиал Главного радиочастотного центра</h4>
+
+              <span>2012 — 2021</span>
+
+              <p class="timeline-text">
+                Начальник отдела эксплуатации, начальник управления информационных технологий<br><br>
+                Обязанности:<br>
+                - руководство отделом, далее управлением информационных технологий (отделы эксплуатации, сопровождения информационных систем, развития, группа мониторинга интернет-ресурсов). От 15 до 30 человек + функциональное подчинение 4 отделений,<br>
+                - организация контроля выполнения лицензионных условий во взаимодействии с территориальными управлениями надзора,<br>
+                - обеспечение технической поддержки, функционирования и развития централизованных производственных информационных систем предприятия (СЭД, 1С, расчетные системы, системы контроля/ мониторинга и других),<br>
+                - экспертная поддержка в качестве 3 линии, решение инцидентов высокого и критического уровня.<br><br>
+                Достижения:<br>
+                - обеспечена 99,9% доступность информационных систем предприятия,<br>
+                - внедрены система контроля качества покрытия мобильной связью, система мониторинга телерадиовещания.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Образование</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Учебный центр РРС<p class="timeline-text">Анализ данных на языке SQL</p></h4>
+
+              <span>2023</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cleverics<p class="timeline-text">Управление сервисами ИТ (ITSM). ITIL Foundation</p></h4>
+
+              <span>2014</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CIFT, PMI PMBOK<p class="timeline-text">Основы управления проектами. Использование MS Project для управления проектной работой</p></h4>
+
+              <span>2013</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Уральский государственный технический университет<p class="timeline-text">Высшее техническое</p></h4>
+
+              <span>1990 - 1996</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="технологии" data-page="технологии">
+
+        <header>
+          <h2 class="h2 article-title">Технологии</h2>
+        </header>
+
+        <section class="projects">
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.pmi.org/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pmi.jpg" alt="pmi" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">PMI PMBOK</h3>
+
+                <p class="project-category">Управление</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.itlibrary.org/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/itil.jpg" alt="itil" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ITIL</h3>
+
+                <p class="project-category">Управление</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.microsoft.com/ru-ru/windows-server" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/windows.jpg" alt="windows" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Windows Server</h3>
+
+                <p class="project-category">Инфраструктура</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.linux.org/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/linux.jpg" alt="linux" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Linux</h3>
+
+                <p class="project-category">Инфраструктура</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.vmware.com/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/vmware.jpg" alt="vmware" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">VMWare</h3>
+
+                <p class="project-category">Инфраструктура</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.docker.com/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/docker.jpg" alt="docker" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Docker</h3>
+
+                <p class="project-category">Инфраструктура</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.microsoft.com/ru-ru/sql-server/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/microsoft-sql-server.jpg" alt="mssql" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Microsoft SQL Server</h3>
+
+                <p class="project-category">Разработка</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.atlassian.com/ru/software/jira" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/jira.jpg" alt="jira" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">JIRA</h3>
+
+                <p class="project-category">Разработка</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://git-scm.com/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/git.jpg" alt="git" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Git</h3>
+
+                <p class="project-category">Разработка</p>
+
+              </a>
+            </li>
+            
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="контакты" data-page="контакты">
+
+        <header>
+          <h2 class="h2 article-title">Контакты</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d287415.6475254098!2d37.6775236!3d55.7509497!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1709107870741!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
